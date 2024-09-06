@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  box-sizing: border-box;
+  background-color: $light-grayish-blue;
+  padding: 74px 24px 81px;
+}
+
+.card {
+  max-width: 327px;
+  background-color: white;
+  border-radius: 10px;
+
+  &__image {
+    display: block;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  &__content {
+    padding: 36px 32px 0;
+  }
+
+  &__title {
+    margin-bottom: 22px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: $very-dark-grayish-blue;
+  }
+
+  &__description {
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.01em;
+    color: $desaturated-dark-blue;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    padding: 0 32px 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  &__author {
+    max-width: 172px;
+    display: flex;
+    margin-right: auto;
+  }
+
+  &__author-image {
+    margin-right: 16px;
+    border-radius: 100%;
+  }
+
+  &__author-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.01em;
+    color: $very-dark-grayish-blue;
+  }
+
+  &__date {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.01em;
+    color: $grayish-blue;
+  }
+
+  &__wrapper-button {
+    display: flex;
+  }
+
+  &__button {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+  }
+}

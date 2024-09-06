@@ -1,0 +1,95 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  box-sizing: border-box;
+  background-color: hsl(210, 46%, 95%);
+  padding: 74px 24px 81px;
+}
+
+.card {
+  max-width: 327px;
+  background-color: white;
+  border-radius: 10px;
+}
+.card__image {
+  display: block;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card__content {
+  padding: 36px 32px 0;
+}
+.card__title {
+  margin-bottom: 22px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: hsl(217, 19%, 35%);
+}
+.card__description {
+  margin-bottom: 22px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.01em;
+  color: hsl(214, 17%, 51%);
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  padding: 0 32px 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card__author {
+  max-width: 172px;
+  display: flex;
+  margin-right: auto;
+}
+.card__author-image {
+  margin-right: 16px;
+  border-radius: 100%;
+}
+.card__author-name {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.01em;
+  color: hsl(217, 19%, 35%);
+}
+.card__date {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.01em;
+  color: hsl(212, 23%, 69%);
+}
+.card__wrapper-button {
+  display: flex;
+}
+.card__button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  column-gap: 56px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
