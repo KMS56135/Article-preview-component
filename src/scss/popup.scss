@@ -1,0 +1,51 @@
+.popup-holder {
+  position: relative;
+}
+
+.popup {
+  display: flex;
+  column-gap: 56px;
+  align-items: center;
+  background-color: $very-dark-grayish-blue;
+  border-radius: 10px;
+  
+  @media (min-width: 376px) {   
+    position: absolute;
+    bottom: 40px;
+    left: -109px;
+
+    :before {
+      content: "";
+      border: 12px solid transparent;
+      border-top-color: $very-dark-grayish-blue;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 21px;
+
+    @media (min-width: 376px) {  
+      padding: 18px 36px 18px 37px;
+      
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.38em;
+    color: hsl(212, 23%, 69%);
+    text-transform: uppercase;
+  }
+
+  &__icons {
+    display: flex;
+    column-gap: 16px;
+  }
+}
